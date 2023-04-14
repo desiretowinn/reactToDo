@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #263A29;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 25px;
+}
+
+.task__box {
+  padding: 50px;
+  background: #A9907E;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.task__title {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.task__box--form {
+  text-align: center;
+}
+
+.task__box--form-input-name {
+  display: block;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  width: 50%;
+  height: 40px;
+  border-radius: 15px;
+  padding-left: 15px;
+  color: #675D50;
+  background-color: #F3DEBA;
+}
+
+.task__box--form-input-name::placeholder {
+  color: #FEFAE0;
+  font-size: 16px;
+}
+
+.task__box--form-input-number {
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 70px;
+  border: none;
+  width: 50%;
+  height: 40px;
+  border-radius: 15px;
+  padding-left: 15px;
+  color: #675D50;
+  background-color: #F3DEBA;
+}
+
+.task__box--form-input-number::placeholder {
+  color: #FEFAE0;
+  font-size: 16px;
+}
+
+.task__box--form-btn {
+  width: 50%;
+  height: 40px;
+  background-color: #E86A33;
+  border: none;
+  border-radius: 15px;
+  color: #FEFAE0;
+  font-size: 15px;
+}
+
+.result-box {
+  margin-top: 50px;
+  box-shadow: 0px 0px 15px 9px rgba(32, 204, 67, 0.42);
+  padding: 50px;
+  background-color: #ABC4AA;
+}
+
+.custom-btn {
+  width: 50%;
+  border: none;
+  background-color: #E86A33;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  width: 50%;
+
+  border: none;
+  background-color: crimson;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table{
+  width: 75%;
+  margin: 0px auto;
+}
+
+
+tr{
+  background: #B7B78A;
+  color: aliceblue;
+}
+
+th{
+  /* width: 100%; */
+  padding: 20px;
+  background-color: #41644A;
+  border-radius: 5px;
+}
+
+td{
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
